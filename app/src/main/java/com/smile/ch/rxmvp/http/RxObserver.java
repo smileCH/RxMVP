@@ -146,7 +146,7 @@ public abstract class RxObserver<T extends BaseBean> implements Observer<T> {
      * 对于异常情况的统一处理
      * @param type 异常的类型
      */
-         public void solveException(ExceptionType type){
+    public void solveException(ExceptionType type){
         switch (type){
             case BAD_NETWORK:
                 Toast.makeText(context, "无网络", Toast.LENGTH_SHORT).show();
